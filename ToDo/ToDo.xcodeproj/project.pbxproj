@@ -11,6 +11,7 @@
 		FDDC69262B3FFDE2005643CE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDC69252B3FFDE2005643CE /* ContentView.swift */; };
 		FDDC69282B3FFDE2005643CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDDC69272B3FFDE2005643CE /* Assets.xcassets */; };
 		FDDC692B2B3FFDE2005643CE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDDC692A2B3FFDE2005643CE /* Preview Assets.xcassets */; };
+		FDDC69322B3FFFA9005643CE /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDC69312B3FFFA9005643CE /* SplashScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		FDDC69252B3FFDE2005643CE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FDDC69272B3FFDE2005643CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FDDC692A2B3FFDE2005643CE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FDDC69312B3FFFA9005643CE /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				FDDC69232B3FFDE2005643CE /* ToDoApp.swift */,
+				FDDC69312B3FFFA9005643CE /* SplashScreen.swift */,
 				FDDC69252B3FFDE2005643CE /* ContentView.swift */,
 				FDDC69272B3FFDE2005643CE /* Assets.xcassets */,
 				FDDC69292B3FFDE2005643CE /* Preview Content */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDDC69322B3FFFA9005643CE /* SplashScreen.swift in Sources */,
 				FDDC69262B3FFDE2005643CE /* ContentView.swift in Sources */,
 				FDDC69242B3FFDE2005643CE /* ToDoApp.swift in Sources */,
 			);
