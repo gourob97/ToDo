@@ -27,7 +27,10 @@ struct TabView: View {
                     }
                     .overlay {
                         RoundedRectangle(cornerRadius: 40)
-                            .stroke(selectedTab == tab ? Color.accentColor.opacity(0.7) : Color.accentColor, lineWidth: selectedTab == tab ? 2 : 1)
+                            .stroke(
+                                selectedTab == tab ? Color.accentColor.opacity(0.7) : Color.accentColor,
+                                lineWidth: selectedTab == tab ? 2 : 1
+                            )
                     }
                 Spacer()
             }
