@@ -12,6 +12,7 @@
 		FDDC69282B3FFDE2005643CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDDC69272B3FFDE2005643CE /* Assets.xcassets */; };
 		FDDC692B2B3FFDE2005643CE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDDC692A2B3FFDE2005643CE /* Preview Assets.xcassets */; };
 		FDDC69322B3FFFA9005643CE /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDC69312B3FFFA9005643CE /* SplashScreen.swift */; };
+		FDDC69342B4009B9005643CE /* SplashScreenConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDC69332B4009B9005643CE /* SplashScreenConstants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		FDDC69272B3FFDE2005643CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FDDC692A2B3FFDE2005643CE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FDDC69312B3FFFA9005643CE /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		FDDC69332B4009B9005643CE /* SplashScreenConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenConstants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			children = (
 				FDDC69232B3FFDE2005643CE /* ToDoApp.swift */,
 				FDDC69312B3FFFA9005643CE /* SplashScreen.swift */,
+				FDDC69332B4009B9005643CE /* SplashScreenConstants.swift */,
 				FDDC69252B3FFDE2005643CE /* ContentView.swift */,
 				FDDC69272B3FFDE2005643CE /* Assets.xcassets */,
 				FDDC69292B3FFDE2005643CE /* Preview Content */,
@@ -142,6 +145,7 @@
 			files = (
 				FDDC69322B3FFFA9005643CE /* SplashScreen.swift in Sources */,
 				FDDC69262B3FFDE2005643CE /* ContentView.swift in Sources */,
+				FDDC69342B4009B9005643CE /* SplashScreenConstants.swift in Sources */,
 				FDDC69242B3FFDE2005643CE /* ToDoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

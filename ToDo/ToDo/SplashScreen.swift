@@ -15,7 +15,7 @@ struct SplashScreen: View {
         ZStack {
             Color.clear.ignoresSafeArea()
             VStack(spacing: 20){
-                Image(systemName: "checkmark.circle")
+                Image(systemName: SplashScreenConstants.logoTodo)
                     .resizable()
                     .scaledToFit()
                     .frame(maxWidth: 200)
@@ -29,7 +29,7 @@ struct SplashScreen: View {
                             scale = 1
                         }
                     }
-                Text("To Do")
+                Text(SplashScreenConstants.textTodo)
                     .scaleEffect(scale)
                     .foregroundColor(.accentColor.opacity(opacity))
                     .font(.system(size: 50))
